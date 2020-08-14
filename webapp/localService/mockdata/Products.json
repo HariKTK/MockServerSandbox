@@ -1,0 +1,201 @@
+[{
+	"PRODUCT_ID": "Jack Sparow",
+	"TYPE_CODE": "TYPE_CODE 1",
+	"CATEGORY": "CATEGORY 1",
+	"NAME": "NAME 1",
+	"DESCRIPTION": "DESCRIPTION 1",
+	"SUPPLIER_ID": "SUPPLIER_ID 1",
+	"SUPPLIER_NAME": "SUPPLIER_NAME 1",
+	"PRICE": 9.85,
+	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 1",
+	"MIME_TYPE": "MIME_TYPE 1",
+	"__metadata": {
+		"uri": "Products('PRODUCT_ID%201')",
+		"type": "ZH_EPM_SRV.Product"
+	},
+	"toSupplier": {
+		"__deferred": {
+			"uri": "Products('PRODUCT_ID%201')/toSupplier"
+		}
+	}
+}, {
+	"PRODUCT_ID": "Den",
+	"TYPE_CODE": "TYPE_CODE 2",
+	"CATEGORY": "CATEGORY 2",
+	"NAME": "NAME 2",
+	"DESCRIPTION": "DESCRIPTION 2",
+	"SUPPLIER_ID": "SUPPLIER_ID 2",
+	"SUPPLIER_NAME": "SUPPLIER_NAME 2",
+	"PRICE": 416.31,
+	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 2",
+	"MIME_TYPE": "MIME_TYPE 2",
+	"__metadata": {
+		"uri": "Products('PRODUCT_ID%202')",
+		"type": "ZH_EPM_SRV.Product"
+	},
+	"toSupplier": {
+		"__deferred": {
+			"uri": "Products('PRODUCT_ID%202')/toSupplier"
+		}
+	}
+}, {
+	"PRODUCT_ID": "Gibbs",
+	"TYPE_CODE": "TYPE_CODE 3",
+	"CATEGORY": "CATEGORY 3",
+	"NAME": "NAME 3",
+	"DESCRIPTION": "DESCRIPTION 3",
+	"SUPPLIER_ID": "SUPPLIER_ID 3",
+	"SUPPLIER_NAME": "SUPPLIER_NAME 3",
+	"PRICE": 6671.92,
+	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 3",
+	"MIME_TYPE": "MIME_TYPE 3",
+	"__metadata": {
+		"uri": "Products('PRODUCT_ID%203')",
+		"type": "ZH_EPM_SRV.Product"
+	},
+	"toSupplier": {
+		"__deferred": {
+			"uri": "Products('PRODUCT_ID%203')/toSupplier"
+		}
+	}
+}, {
+	"PRODUCT_ID": "PRODUCT_ID 4",
+	"TYPE_CODE": "TYPE_CODE 4",
+	"CATEGORY": "CATEGORY 4",
+	"NAME": "NAME 4",
+	"DESCRIPTION": "DESCRIPTION 4",
+	"SUPPLIER_ID": "SUPPLIER_ID 4",
+	"SUPPLIER_NAME": "SUPPLIER_NAME 4",
+	"PRICE": 2613.6,
+	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 4",
+	"MIME_TYPE": "MIME_TYPE 4",
+	"__metadata": {
+		"uri": "Products('PRODUCT_ID%204')",
+		"type": "ZH_EPM_SRV.Product"
+	},
+	"toSupplier": {
+		"__deferred": {
+			"uri": "Products('PRODUCT_ID%204')/toSupplier"
+		}
+	}
+}, {
+	"PRODUCT_ID": "PRODUCT_ID 5",
+	"TYPE_CODE": "TYPE_CODE 5",
+	"CATEGORY": "CATEGORY 5",
+	"NAME": "NAME 5",
+	"DESCRIPTION": "DESCRIPTION 5",
+	"SUPPLIER_ID": "SUPPLIER_ID 5",
+	"SUPPLIER_NAME": "SUPPLIER_NAME 5",
+	"PRICE": 7960.43,
+	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 5",
+	"MIME_TYPE": "MIME_TYPE 5",
+	"__metadata": {
+		"uri": "Products('PRODUCT_ID%205')",
+		"type": "ZH_EPM_SRV.Product"
+	},
+	"toSupplier": {
+		"__deferred": {
+			"uri": "Products('PRODUCT_ID%205')/toSupplier"
+		}
+	}
+}, {
+	"PRODUCT_ID": "PRODUCT_ID 6",
+	"TYPE_CODE": "TYPE_CODE 6",
+	"CATEGORY": "CATEGORY 6",
+	"NAME": "NAME 6",
+	"DESCRIPTION": "DESCRIPTION 6",
+	"SUPPLIER_ID": "SUPPLIER_ID 6",
+	"SUPPLIER_NAME": "SUPPLIER_NAME 6",
+	"PRICE": 2584.86,
+	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 6",
+	"MIME_TYPE": "MIME_TYPE 6",
+	"__metadata": {
+		"uri": "Products('PRODUCT_ID%206')",
+		"type": "ZH_EPM_SRV.Product"
+	},
+	"toSupplier": {
+		"__deferred": {
+			"uri": "Products('PRODUCT_ID%206')/toSupplier"
+		}
+	}
+}, {
+	"PRODUCT_ID": "PRODUCT_ID 7",
+	"TYPE_CODE": "TYPE_CODE 7",
+	"CATEGORY": "CATEGORY 7",
+	"NAME": "NAME 7",
+	"DESCRIPTION": "DESCRIPTION 7",
+	"SUPPLIER_ID": "SUPPLIER_ID 7",
+	"SUPPLIER_NAME": "SUPPLIER_NAME 7",
+	"PRICE": 5101.49,
+	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 7",
+	"MIME_TYPE": "MIME_TYPE 7",
+	"__metadata": {
+		"uri": "Products('PRODUCT_ID%207')",
+		"type": "ZH_EPM_SRV.Product"
+	},
+	"toSupplier": {
+		"__deferred": {
+			"uri": "Products('PRODUCT_ID%207')/toSupplier"
+		}
+	}
+}, {
+	"PRODUCT_ID": "PRODUCT_ID 8",
+	"TYPE_CODE": "TYPE_CODE 8",
+	"CATEGORY": "CATEGORY 8",
+	"NAME": "NAME 8",
+	"DESCRIPTION": "DESCRIPTION 8",
+	"SUPPLIER_ID": "SUPPLIER_ID 8",
+	"SUPPLIER_NAME": "SUPPLIER_NAME 8",
+	"PRICE": 7638.68,
+	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 8",
+	"MIME_TYPE": "MIME_TYPE 8",
+	"__metadata": {
+		"uri": "Products('PRODUCT_ID%208')",
+		"type": "ZH_EPM_SRV.Product"
+	},
+	"toSupplier": {
+		"__deferred": {
+			"uri": "Products('PRODUCT_ID%208')/toSupplier"
+		}
+	}
+}, {
+	"PRODUCT_ID": "PRODUCT_ID 9",
+	"TYPE_CODE": "TYPE_CODE 9",
+	"CATEGORY": "CATEGORY 9",
+	"NAME": "NAME 9",
+	"DESCRIPTION": "DESCRIPTION 9",
+	"SUPPLIER_ID": "SUPPLIER_ID 9",
+	"SUPPLIER_NAME": "SUPPLIER_NAME 9",
+	"PRICE": 100.85,
+	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 9",
+	"MIME_TYPE": "MIME_TYPE 9",
+	"__metadata": {
+		"uri": "Products('PRODUCT_ID%209')",
+		"type": "ZH_EPM_SRV.Product"
+	},
+	"toSupplier": {
+		"__deferred": {
+			"uri": "Products('PRODUCT_ID%209')/toSupplier"
+		}
+	}
+}, {
+	"PRODUCT_ID": "PRODUCT_ID 10",
+	"TYPE_CODE": "TYPE_CODE 10",
+	"CATEGORY": "CATEGORY 10",
+	"NAME": "NAME 10",
+	"DESCRIPTION": "DESCRIPTION 10",
+	"SUPPLIER_ID": "SUPPLIER_ID 10",
+	"SUPPLIER_NAME": "SUPPLIER_NAME 10",
+	"PRICE": 8688.55,
+	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 10",
+	"MIME_TYPE": "MIME_TYPE 10",
+	"__metadata": {
+		"uri": "Products('PRODUCT_ID%2010')",
+		"type": "ZH_EPM_SRV.Product"
+	},
+	"toSupplier": {
+		"__deferred": {
+			"uri": "Products('PRODUCT_ID%2010')/toSupplier"
+		}
+	}
+}]

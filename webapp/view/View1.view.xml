@@ -1,0 +1,30 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="com.dep.pro.controller.View1">
+		<Page title="1st Page">
+			<content>
+				<!--<Button icon="sap-icon://filter" press="onPress" text="Fruits"/>-->
+				<SearchField id="idSearch" search="onSearch"/>
+				<List id="idList" items="{/Products}" mode="SingleSelectMaster" selectionChange="onSelChange" 
+						growing="true" growingThreshold="10" growingScrollToLoad="true">
+					<items>
+						<ObjectListItem type="Navigation" intro="{NAME}" number="{PRICE}" title="{PRODUCT_ID}">
+							<attributes>
+								<ObjectAttribute text="{CATEGORY}" title="Category"></ObjectAttribute>
+							</attributes>
+						</ObjectListItem>
+					</items>
+				</List>
+			</content>
+			<footer>
+			<Toolbar>
+				<!--<ToolbarSpacer/>-->
+				<Button icon="sap-icon://add" type="Accept" press="onPressPro" tooltip="Create Product" />
+				<Button type="Accept" text="Get Exp. Prd." tooltip="Get Expensive Product"
+						press="onExpProduct"></Button>
+				<Button type="Accept" text="Get Exp. Prd. Cat." tooltip="Get Expensive Product with Category Filter"
+						press="onExpProductCat"
+				></Button>
+			</Toolbar>
+		</footer>
+		</Page>
+		
+</mvc:View>

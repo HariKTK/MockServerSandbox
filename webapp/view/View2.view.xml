@@ -1,0 +1,30 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.dep.pro.controller.View2"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="2nd Page">
+		<content>
+			<ObjectHeader id="idObjHdr" intro="{PRODUCT_ID}" title="{NAME}" number="{PRICE}">
+				<attributes>
+					<ObjectAttribute text="{CATEGORY}" title="Category"></ObjectAttribute>
+				</attributes>
+			</ObjectHeader>
+			<IconTabBar select="onItem">
+				<items>
+					<IconTabFilter icon="sap-icon://warning" text="More Info">
+						<Image id="idImage" width="200px" height="200px"></Image>
+						<core:Fragment fragmentName="com.dep.pro.fragments.info" type="XML"></core:Fragment>
+					</IconTabFilter>
+					<IconTabFilter icon="sap-icon://employee" text="Suppliers">
+						<core:Fragment fragmentName="com.dep.pro.fragments.suppliers" type="XML"></core:Fragment>
+					</IconTabFilter>
+					<!--<IconTabFilter icon="sap-icon://home"></IconTabFilter>-->
+				</items>
+			</IconTabBar>
+		</content>
+		<footer>
+			<OverflowToolbar>
+				<ToolbarSpacer/>
+				<Button text="Delete" type="Reject" press="onDelete"></Button>
+			</OverflowToolbar>
+		</footer>
+	</Page>
+</mvc:View>

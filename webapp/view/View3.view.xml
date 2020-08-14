@@ -1,0 +1,11 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.dep.pro.controller.View3"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:h="com.dep.pro.customControls">
+	<Page title="3rd Page">
+		<content>
+			<h:Heading text="We did module Approach DUDE" color="yellow"></h:Heading>
+			<h:ExtButton text="Extenstion Button Click" press="onPress"></h:ExtButton>
+			<h:ExtButton text="Extenstion Button hover" hover="onPress"></h:ExtButton>
+			<core:Fragment fragmentName="com.dep.pro.fragments.createPro" type="XML"></core:Fragment>
+		</content>
+	</Page>
+</mvc:View>

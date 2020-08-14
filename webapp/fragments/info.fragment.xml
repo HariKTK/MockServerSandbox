@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:form="sap.ui.layout.form">
+	<form:SimpleForm>
+		<Label text="PRODUCT_ID"></Label><Text text="{PRODUCT_ID}"></Text>
+		<Label text="TYPE_CODE"></Label><Text text="{TYPE_CODE}"></Text>
+		<Label text="Description"></Label><Text text="{DESCRIPTION}"></Text>
+		<Label text="SUPPLIER_ID"></Label><Text text="{SUPPLIER_ID}"></Text>
+		<Label text="SUPPLIER_NAME"></Label><Text text="{SUPPLIER_NAME}"></Text>
+		<!--<Label text="Availability"></Label><Text text="{fruits>availability}"></Text>-->
+		<!--<Label text="Color"></Label><Text text="{fruits>color}"></Text>-->
+	</form:SimpleForm>
+</core:FragmentDefinition>

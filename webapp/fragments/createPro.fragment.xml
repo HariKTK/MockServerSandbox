@@ -1,0 +1,20 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+	<f:SimpleForm editable="true">
+		<Label text="Product ID"></Label>
+		<Input value="{local>/productData/PRODUCT_ID}" width="150px"></Input>
+		<Label text="Type Code"></Label>
+		<Input value="{local>/productData/TYPE_CODE}" width="60px"></Input>
+		<Label text="Category"></Label>
+		<Input value="{local>/productData/CATEGORY}" width="300px"></Input>
+		<Label text="Name"></Label>
+		<Input value="{local>/productData/NAME}" width="300px"></Input>
+		<Label text="Description"></Label>
+		<Input value="{local>/productData/DESCRIPTION}" width="400px"></Input>
+		<Label text="Price"></Label>
+		<Input value="{local>/productData/PRICE}" width="100px"></Input>
+	</f:SimpleForm>
+	<f:SimpleForm editable="true">
+		<Button text="Save" type="Accept" press="onSave"></Button>
+		<!--<Button text="Delete" type="Reject" press="onDelete"></Button>-->
+	</f:SimpleForm>
+</core:FragmentDefinition>

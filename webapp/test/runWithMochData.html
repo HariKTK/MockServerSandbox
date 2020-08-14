@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_bluecrystal"
+				data-sap-ui-bindingSyntax="complex"
+				data-sap-ui-resourceRoots='{"com.dep.pro":"../"}'></script>
+		<script>
+		sap.ui.require(
+			["com/dep/pro/localService/mockServer"],
+			function(mockServer){
+				mockServer.mimicData();
+				
+				var oCompCont = new sap.ui.core.ComponentContainer({
+				name: "com.dep.pro"
+				});
+				oCompCont.placeAt("idCont");
+			});
+		</script>
+	</head>
+	<body class="sapUiBody">
+		<div id="idCont"></div>
+	</body>
+</html>
